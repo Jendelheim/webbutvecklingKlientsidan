@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables</title>
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<h3>Description of : tables </h3>
+
+<p> When users are creating content online, one of the common ways to present data or content is by using a table. <br>
+    We are used to seeing tables in our daily life, for example every time you've used Excel / Google Docs for a task or <br>
+    when you are buying a new phone and tries to select which paymentplan you would like to choose it is most often written in a table.
+</p>
+
+<h3>Example: </h3>
+
+<img src="../../Pictures/tables.png">
+
+<p> Tables are divided in two different categories of content, you have the tablerow which defines the amount of rows used <br>
+    in the table and is declared by a &lttr&gt-tag. The second tag which is the tabledata-tag is declared by a &lttd&gt-tag, <br>
+    which adds the data (i.e content) to the related (parent) tablerow-tag (tr). </p>
+
+<p> Now when you know what the rows and data comes from, I'll briefly introduce you to two other tags. The th-tag and caption-tag. <br>
+    You might know what the rows / columns represent, but if you show your table to another person it might not be as obvious. <br>
+    by using a &ltth&gt-tag you get a bold text which is stating the name of that certain column, for example if you want to <br>
+    in column A list on each row the names of players in a football team, and column B list the amount of goals they've made this season.
+    <br>
+    And as far as we know, this table could be absolutely useless since the value of a player (i.e Zlatan) and a random number <br>
+    might not mean anything if you do not know the table is just a representation of the amount of goals per player this season. <br>
+    One way to tell the user what the table is all about, the &ltcaption&gt-tag is a legit way to do it.
+
+</p>
+
+<h3> An example of the table from above : </h3>
+
+<table>
+    <caption>Amount of goals per player current season</caption>
+    <tr>
+        <th>Player</th>
+        <th>Goals</th>
+    </tr>
+    <tr>
+        <td>Zlatan</td>
+        <td>25</td>
+    </tr>
+    <tr>
+        <td>Cavani</td>
+        <td>13</td>
+    </tr>
+
+</table>
+</body>
+</html>
