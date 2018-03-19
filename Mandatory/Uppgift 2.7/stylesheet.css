@@ -1,0 +1,28 @@
+#example_layout{
+    width: 100%;
+}
+
+
+.exampleTop {
+    width: 50%;
+    min-width: 200px;
+    background-color: lightgrey;
+    margin: 10px;
+}
+
+.exampleMid{
+    width: 17%;
+    min-width: 75px;
+    height: 350px;
+    background-color: lightgrey;
+    margin: 5px;
+    display: inline-block;
+}
+
+#header {
+    height: 60px;
+}
+
+#navbar {
+    height: 20px;
+}

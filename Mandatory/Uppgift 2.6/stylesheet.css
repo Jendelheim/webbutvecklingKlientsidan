@@ -1,0 +1,28 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+th {
+    background-color: lightgrey;
+}
+
+table.students {
+    table-layout: auto;
+}
+
+table.studentVehicles {
+
+    table-layout: fixed;
+}
+
+table.studentSalary {
+    table-layout: initial;
+}
+
+
+
